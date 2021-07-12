@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice 6b</title>
+    <style>
+          *{
+            margin: 0;
+            padding: 0;
+        }
+        .navbar{
+            background-color: black;
+            height: 10vh;
+            width: 100vw;
+        }
+        .navbar ul li {
+            display: inline-block;
+            /* margin: 18px 27px; */
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding:0px 10px;
+        }
+        .left{
+            float: right;
+            position: relative;
+            bottom: 30px;
+            right: 25px;
+        }
+        .right{
+            padding-top: 15px;
+            padding-left: 15px;
+        }
+        .bg{
+            width: 100vw;
+            height: 50vh;
+            background-image: url("IMG-20151013-WA0011.jpg");
+            background-repeat: no-repeat;
+            background-size: 100vw 50vh;
+        }
+        .img{
+            display: flex;
+            justify-content: space-around;
+            padding-top: 10vh;
+            padding-bottom: 10vh;
+            background-color: aqua;
+            
+            /* height: 40vh;
+            width: 100vw; */
+        }
+        .i img{
+            border-radius: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+
+        <ul class="right">
+            <li><img src="gym.jpg" alt="gym" height="35px" style="vertical-align: middle; border-radius: 5px;"></li>
+        </ul>
+        <ul class="left">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="bg">
+        Lorem ipsum dolor sit.
+    </div>
+    <div class="img">
+        <div class="i"><img src="gym.jpg" alt="error" height="200px" width="200px"></div>
+        <div class="i"><img src="IMG-20151013-WA0010.jpg" alt="error" height="200px" width="200px"></div>
+        <div class="i"><img src="IMG_E0051.JPG" alt="error" height="200px" width="200px"></div>
+    </div>
+</body>
+</html>
+            
